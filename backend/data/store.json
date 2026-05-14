@@ -1,3 +1,124 @@
 {
-  "timetables": []
+  "timetables": [
+    {
+      "id": "af8603d8-0ace-4341-8424-a306ea45be5d",
+      "department": "Computer Science",
+      "section": "CSE101",
+      "strength": "70",
+      "goal": "",
+      "faculty": [
+        {
+          "name": "Mittal",
+          "department": "CSE",
+          "availability": "MON",
+          "preference": "Afternoon"
+        },
+        {
+          "name": "Ayush",
+          "department": "CSE",
+          "availability": "Mon-Fri",
+          "preference": "Afternoon"
+        }
+      ],
+      "rooms": [
+        {
+          "name": "38-701",
+          "type": "Classroom",
+          "capacity": "100"
+        },
+        {
+          "name": "38-702",
+          "type": "Classroom",
+          "capacity": "100"
+        }
+      ],
+      "courses": [
+        {
+          "name": "C++",
+          "faculty": "Mittal",
+          "sessionsPerWeek": "2",
+          "preferredRoomType": "Classroom"
+        },
+        {
+          "name": "JS",
+          "faculty": "Ayush",
+          "sessionsPerWeek": "8",
+          "preferredRoomType": "Classroom"
+        }
+      ],
+      "schedule": [
+        {
+          "day": "MON",
+          "slot": "15:00-16:30",
+          "course": "C++",
+          "faculty": "Mittal",
+          "room": "38-701"
+        },
+        {
+          "day": "MON",
+          "slot": "16:30-18:00",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-702"
+        },
+        {
+          "day": "TUE",
+          "slot": "15:00-16:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-701"
+        },
+        {
+          "day": "WED",
+          "slot": "15:00-16:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-702"
+        },
+        {
+          "day": "THU",
+          "slot": "15:00-16:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-701"
+        },
+        {
+          "day": "FRI",
+          "slot": "15:00-16:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-702"
+        },
+        {
+          "day": "MON",
+          "slot": "18:00-19:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-701"
+        },
+        {
+          "day": "WED",
+          "slot": "18:00-19:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-702"
+        },
+        {
+          "day": "FRI",
+          "slot": "18:00-19:30",
+          "course": "JS",
+          "faculty": "Ayush",
+          "room": "38-701"
+        }
+      ],
+      "explanation": "This timetable for the CSE101 section accommodates faculty availability and preferences while distributing sessions across the available faculty and rooms.",
+      "analytics": {
+        "constraintScore": 95,
+        "facultyUtilization": 90,
+        "roomUtilization": 99
+      },
+      "createdAt": "9 May 2026, 5:56 pm",
+      "timestamp": 1778329576899
+    }
+  ]
 }
